@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Project One</title>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>CORONAVIRUS19</h1>
+    <br>
+    <div id="bg">
+        <img class="image" src="https://www.adl.org/sites/default/files/styles/max_650x650/public/2020-05/Coronavirus-people-in-white-medical-face-mask-illustration-iStock-1202707966.png?itok=sb03V1rM"></img>
+    </div>
+    <h3> A free data on COVID19 is available there. Access data by searching country name and you will get the most recent number of cases. </h3>
+    <br>
+    <div class="wrapper">
+        <!--Seach From-->
+        <form>
+            <p>
+                <label for="Search">Enter Country Name</label>
+                <input type="text" id="search" class="search" required >
+                
+            </p>
+            <!-- <p>
+                <label for="date">Enter a date (format MMDDYYYY): </label>
+                <input type="date" id="date" class="date" pattern="[0-9]{8}">
+            </p> -->
+            <p>
+                <button type="submit" class="submit-btn">Get Data</button>
+            </p>
+        
+
+
+
+        </form>
+        <br>
+
+    <div class="wrapper2"></div>
+        <article class="dataCovid">Below you will see result from your search</article>
+        <div class="result"></div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
